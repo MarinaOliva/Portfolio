@@ -8,11 +8,11 @@ Este es mi portfolio personal donde muestro tecnologías que manejo y formas de 
 - `tecnologias.html`: Tecnologías y herramientas que utilizo.
 - `contacto.html`: Formulario de contacto.
 - `styles.css`: Estilos globales compartidos.
-- `/assets`: Carpeta con imágenes, íconos y otros recursos.
+- `images`: Carpeta con imágenes e íconos.
 
 ## 🚀 Cómo ver el sitio en vivo
 
-Podés ver el portfolio en línea en:  
+El portfolio en línea puede hallarse en:  
 👉 https://marinaoliva.github.io/Portfolio/
 
 ## 🛠 Tecnologías utilizadas
@@ -22,4 +22,4 @@ Podés ver el portfolio en línea en:
 - Git & GitHub
 ---
 
-> Este proyecto forma parte de mi formación como desarrolladora de software.
+> Este proyecto forma parte de mi formación como desarrolladora de software en IFTS n° 29.
