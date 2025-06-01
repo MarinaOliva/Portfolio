@@ -21,7 +21,7 @@ El portfolio en línea puede hallarse en:
 ---
 ## 📸 Vista previa
 
-<img src="./images/captura.jpg" alt="Portfolio de Marina" width="600"/>
+<img src="/Images/captura.jpg" alt="Portfolio de Marina" width="600"/>
 
 
 > Este proyecto forma parte de mi formación como desarrolladora de software en IFTS n° 29.
