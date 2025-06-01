@@ -1,49 +1,194 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Mi Portfolio - Marina Oliva</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Mi Portfolio - Marina Oliva</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
-    <!-- Navegación principal -->
-    <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./tecnologias.html">Tecnologías y Hobbies</a></li>
-                <li><a href="./contacto.html">Contacto</a></li> 
-                <!--Me interesa poner una pestaña de proyectos en el futuro, y agregar animaciones suaves entre secciones-->
-            </ul>
-        </nav>
-    </header>
+  <!-- ==================== HEADER Y NAVEGACIÓN ==================== -->
+  <header>
+    <nav>
+      <ul class="nav-lista">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#tecnologias">Tecnologías y Hobbies</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Contenido principal -->
   <main>
-    <div class="presentacion">
-      <img class="imagen-pc" src="Images/hello.gif" alt="Imagen pc con mensaje de hello world">
-      <h1>¡Hola! Soy Marina Oliva</h1>
-      <h2 class="subtitulo">Estudiante de Desarrollo de Software y Química </h2>
-      <p>Me apasiona la tecnología, el análisis de datos y la programación.</p>
-      <p>Mi objetivo es integrar la programación y el análisis de datos en entornos de laboratorio, combinando ciencia y tecnología para generar soluciones prácticas y eficientes.</p>
-      <br>
-      <p>Este es el comienzo de mi portfolio personal, donde iré compartiendo mis conocimientos y proyectos.</p>
-</div>
+    <!-- ==================== SECCIÓN SOBRE MÍ ==================== -->
+    <section id="sobre-mi" class="section-card">
+      <div class="sobre-mi-contenido">
+        <img src="images/avatar.jpg" alt="Avatar de Marina" class="avatar-img" />
+        <div class="texto-sobre-mi">
+          <h2 class="section-titulo">Sobre Mí</h2>
+          <h2 class="subtitulo">¡Bienvenidos!</h2>
+          <p>Mi nombre es Marina. Me apasiona la tecnología, el análisis de datos y la programación. Vengo del mundo de
+            la ciencia, con formación en Química, y hoy estoy enfocada en seguir creciendo como desarrolladora de
+            software.</p>
+          <p>Mi objetivo es integrar la programación y el análisis de datos en entornos de laboratorio, combinando
+            ciencia y tecnología para generar soluciones prácticas y eficientes. Me interesa crear herramientas con
+            impacto real, que unan lógica, diseño y una buena experiencia de usuario.</p>
+          <p>He trabajado en proyectos tanto web como de escritorio, usando tecnologías como React, JavaScript, MySQL y
+            Python. Disfruto aprender nuevas herramientas, trabajar en equipo y asumir desafíos que requieren
+            organización, comunicación y creatividad.</p>
+          <p>Me gustan los entornos donde se aprende haciendo y donde el código no es un fin en sí mismo, sino un medio
+            para resolver problemas. También tengo especial interés en áreas como la ciencia, la salud y la
+            accesibilidad digital.</p>
+          <p>Este es el comienzo de mi portfolio personal, donde iré compartiendo mis conocimientos, proyectos y
+            aprendizajes.</p>
+        </div>
+      </div>
+    </section>
 
+
+    <!-- ==================== SECCIÓN TECNOLOGÍAS ==================== -->
+    <section id="tecnologias" class="section-card">
+      <h2 class="section-titulo">Tecnologías y Hobbies</h2>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Nivel de Conocimiento</th>
+              <th>Tecnologías que Conozco</th>
+              <th>Tecnologías que Quiero Aprender</th>
+              <th>Mis Hobbies</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Básico</td>
+              <td>
+                <i class="fab fa-java" title="Java"></i>
+                <i class="fab fa-react" title="React"></i>
+                <i class="fab fa-bootstrap" title="Bootstrap"></i>
+                <img src="images/csharp.svg" alt="C#" title="C#">
+              </td>
+              <td>
+                <img src="images/dotnet.svg" alt=".NET" title=".NET">
+                <img src="images/r.svg" alt="R" title="R">
+              </td>
+              <td rowspan="3" class="hobby">Leer, aprender idiomas, ver series</td>
+            </tr>
+            <tr>
+              <td>Intermedio</td>
+              <td>
+                <i class="fab fa-html5" title="HTML5"></i>
+                <i class="fab fa-css3-alt" title="CSS3"></i>
+                <i class="fab fa-js" title="JavaScript"></i>
+                <img src="images/sql.svg" alt="SQL" title="SQL">
+                <i class="fab fa-python" title="Python"></i>
+              </td>
+              <td>
+                <img src="images/kotlin.svg" alt="Kotlin" title="Kotlin">
+                <img src="images/springboot.svg" alt="Spring Boot" title="Spring Boot">
+              </td>
+            </tr>
+            <tr>
+              <td>Avanzado</td>
+              <td>-</td>
+              <td><i class="fab fa-python" title="Python"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+
+    <!-- ==================== SECCIÓN PROYECTOS ==================== -->
+    <section id="proyectos" class="section-card">
+      <h2 class="section-titulo">Mis Proyectos web</h2>
+      <div class="showcase">
+        <a href="#" class="proyecto">
+          <img src="images/proyecto1.jpg" alt="To-do List">
+          <div class="overlay">
+            <p>Este proyecto es un organizador de tareas diseñado especialmente para usuarios que desean ordenar sus
+              vidas, con herramientas para gestionar sus actividades de manera eficiente. Desarrollado en React, incluye
+              una interfaz de usuario con un diseño amigable.</p>
+          </div>
+        </a>
+
+        <a href="#" class="proyecto">
+          <img src="images/proyecto2.jpg" alt="ElectroHub">
+          <div class="overlay">
+            <p>Desarrollo de una tienda online de productos electrónicos utilizando HTML5, CSS3, JavaScript y Bootstrap.
+              El sitio presenta un diseño responsive, catálogo de productos con imágenes y descripciones, barra de
+              navegación, tema oscuro/claro y estructura modular que facilita futuras integraciones como carrito de
+              compras o pasarelas de pago.</p>
+          </div>
+        </a>
+
+        <a href="#" class="proyecto">
+          <img src="images/proyecto3.jpg" alt="Encriptador de Texto">
+          <div class="overlay">
+            <p>Encriptador de texto simple en JavaScript que permite cifrar y descifrar mensajes. Frontend con
+              Bootstrap.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+
+    <!-- ==================== SECCIÓN CONTACTO ==================== -->
+    <section id="contacto" class="section-card">
+      <h2 class="section-titulo">Formulario de Contacto</h2>
+      <form class="contact-form">
+        <!-- Nombre -->
+        <div class="form-field">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <!-- Apellido -->
+        <div class="form-field">
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" required>
+        </div>
+
+        <!-- Correo electrónico -->
+        <div class="form-field">
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <!-- Teléfono -->
+        <div class="form-field">
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono">
+        </div>
+
+        <!-- Mensaje -->
+        <div class="form-field">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+
+        <!-- Botón de envío -->
+        <div class="form-field">
+          <button type="submit" class="submit-btn">Enviar</button>
+        </div>
+      </form>
+    </section>
   </main>
 
-
-    <!-- Footer -->
-    <footer>
+  <!-- ==================== footer ==================== -->
+  <footer>
     <a href="https://www.linkedin.com/in/marina-oliva/" target="_blank" aria-label="LinkedIn">
       <i class="fab fa-linkedin fa-2x"></i>
     </a>
     <a href="https://github.com/MarinaOliva" target="_blank" aria-label="GitHub">
       <i class="fab fa-github fa-2x"></i>
     </a>
+    <p>© 2025 Marina Oliva. Todos los derechos reservados.</p>
   </footer>
 
 </body>
+
 </html>

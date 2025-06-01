@@ -4,9 +4,7 @@ Este es mi portfolio personal donde muestro tecnologías que manejo y formas de 
 
 ## 📁 Estructura del proyecto
 
-- `index.html`: Página principal con presentación personal.
-- `tecnologias.html`: Tecnologías y herramientas que utilizo.
-- `contacto.html`: Formulario de contacto.
+- `index.html`: Página principal con presentación personal, las tecnologías que manejo, ejemplos de proyectos realizados y las formas de contacto para conectarse conmigo. .
 - `styles.css`: Estilos globales compartidos.
 - `images`: Carpeta con imágenes e íconos.
 
@@ -21,5 +19,9 @@ El portfolio en línea puede hallarse en:
 - CSS3
 - Git & GitHub
 ---
+## 📸 Vista previa
+
+<img src="./images/captura.jpg" alt="Portfolio de Marina" width="600"/>
+
 
 > Este proyecto forma parte de mi formación como desarrolladora de software en IFTS n° 29.
